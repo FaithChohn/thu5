@@ -10,8 +10,8 @@ Code nhận diện khuôn mặt
 
 1. Clone the repository:
 ```bash
-    git clone https://github.com/TaQyn/sp_project-main.git
-    cd sp_project-main
+    git clone https://github.com/FaithChohn/thu5
+    cd sp_project-main-main
 ```
 2. Tạo và kích hoạt môi trường ảo:
 ```bash
@@ -49,11 +49,15 @@ Code nhận diện khuôn mặt
     - Tên mô hình: `OpenFace`
     - Đường dẫn chỉ mục: `path/to/faiss_index.bin`
 ```
-2. Chạy với ảnh:
+2. Cho máy học:
+```bash
+    python store_embeddings.py
+```
+3. Chạy với ảnh:
 ```bash
     python infer_img.py
 ```
-3. Chạy với camera:
+4. Chạy với camera:
 ```bash
     python infer_video.py
 ```
